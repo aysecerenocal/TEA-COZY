@@ -1,0 +1,150 @@
+* {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:seashell;
+    opacity:0.9;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#mission{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.nav-bar{
+height:69px;    
+border-bottom: 1px solid seashell;
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+
+top: 0;
+left: -10px;
+width:100%;
+margin-bottom: 69px;
+position: fixed;
+z-index: 1000;
+
+}
+.tea-img{
+height:50px;
+margin-left: 10px;
+width:auto;
+}
+
+.menu{
+display:inline-flex;
+justify-content:flex-end;
+gap: 20px;
+list-style: none;
+}
+
+.head-back{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1xoynyr*_gcl_au*MTQ4MTk1MDkxNi4xNzM1ODQ5NzI2*_ga*MTA3MjY3ODMxMC4xNzA1NjA3NDk3*_ga_3LRZM6TM9L*MTczODM5ODE5MS4xMDguMS4xNzM4Mzk4MTk1LjU2LjAuMA..);
+    height: 700px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:1200px 700px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 71px;
+}
+  
+
+.head-text{
+margin:0;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+width:1200px;
+padding: 0;
+}
+
+.foto-main{
+  
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    width: 1000 px;
+}
+.foto p{
+text-align: center;
+}
+
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    gap:20 px;
+}
+
+.foto img{
+    height: 200 px;
+    width: 300 px;  
+}
+
+.tea-month{
+    text-align: center;
+}
+
+.tea-month img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+   
+}
+
+.location{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*45yn3p*_gcl_au*MTQ4MTk1MDkxNi4xNzM1ODQ5NzI2*_ga*MTA3MjY3ODMxMC4xNzA1NjA3NDk3*_ga_3LRZM6TM9L*MTczODM5ODE5MS4xMDguMS4xNzM4Mzk4MTk1LjU2LjAuMA..);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px 500px;
+    margin-top: 60px;
+    height: 500px;
+    align-content: center;   
+}
+
+.loc-head{
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.box-location{
+    display:flex;
+  text-align: center;
+   flex-wrap: wrap;
+   justify-content: center;
+    background-color:transparent;
+    gap: 40px;
+    opacity: 1;  
+}
+
+.box{
+    width: 300px; 
+    opacity: 1;
+ 
+}
+
+footer{
+  text-align: center;
+  height:200px;
+}
+
+#last{
+text-align: start;
+margin-left: 20px;
+padding-bottom: 20px;
+}
